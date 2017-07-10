@@ -3929,13 +3929,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
-<package name="REVISION">
-<description>&lt;h3&gt;"Revision By" Text - tDoc&lt;/h3&gt;
-&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
-</package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
 <description>&lt;h3&gt;SparkFun Font Logo w/ Flame - 0.1" Height - Silkscreen&lt;/h3&gt;
 &lt;p&gt;SparkFun font logo with flame logo&lt;/p&gt;
@@ -17919,13 +17912,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
-<symbol name="REVISION">
-<description>&lt;h3&gt;"Revision By" Text - Symbol&lt;/h3&gt;
-&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
-</symbol>
 <symbol name="SFE_LOGO_NAME_FLAME">
 <description>&lt;h3&gt;SparkFun Font Logo w/ Flame&lt;/h3&gt;
 &lt;p&gt;Devices using:
@@ -19164,20 +19150,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
 <attribute name="VERSION" value="v01" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="REVISION" prefix="LOGO">
-<description>&lt;h3&gt;"Revision By" Text&lt;/h3&gt;
-&lt;p&gt;Preceding text for revisor documentation. Includes schematic text on "symbols" layer, and board text on tDoc.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="REVISION" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="REVISION">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21516,6 +21488,62 @@ Manufacturer: Hirose&lt;br&gt;
 <vertex x="1.20141875" y="0.51391875"/>
 </polygon>
 </package>
+<package name="PAD.02X.02">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area:0.015"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_02">
@@ -21559,6 +21587,13 @@ Manufacturer: Hirose&lt;br&gt;
 <text x="-2.54" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <text x="-2.54" y="7.62" size="1.778" layer="95" font="vector">&gt;NAME</text>
+</symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22051,6 +22086,60 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <attribute name="PROD_ID" value="CONN-13711" constant="no"/>
 <attribute name="VALUE" value="AMP FCI 10103594-0001LF" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
+&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22738,7 +22827,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="U$1" library="SparkFun" deviceset="OSHW-LOGO" device="S"/>
 <part name="JP16" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U$2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
@@ -22773,6 +22861,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R7" library="SparkFun-Resistors" deviceset="750OHM" device="-0603-1/10W-1%" value="1.125M"/>
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="PTH"/>
+<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 </parts>
 <sheets>
 <sheet>
@@ -22780,7 +22869,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="114.3" x2="248.92" y2="114.3" width="0.254" layer="97" style="longdash"/>
 <text x="5.08" y="175.26" size="3.81" layer="97" font="vector">LiPo Charger</text>
 <text x="5.08" y="104.14" size="3.81" layer="97" font="vector">Switching Regulator</text>
-<text x="169.418" y="7.112" size="2.1844" layer="94" font="vector">Marshall Taylor</text>
+<text x="166.878" y="11.43" size="2.1844" layer="94" font="vector">Marshall Taylor</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">vX2</text>
 <text x="132.08" y="139.7" size="1.778" layer="97" font="vector">500mA</text>
 <text x="137.16" y="127" size="1.778" layer="97" font="vector">Ireg = 1000V/Rprog</text>
@@ -22789,7 +22878,6 @@ PAM2401 </text>
 <text x="66.04" y="33.02" size="2.54" layer="97" font="vector">ATMEGA328P-AU</text>
 <text x="32.512" y="36.83" size="1.27" layer="97" font="vector">Install 100k resistor for
 inductor current limit</text>
-<text x="166.878" y="11.43" size="2.1844" layer="94" font="vector">Aaron Weiss/Patrick Alberts/Toni Klopfenstein</text>
 <text x="116.84" y="50.8" size="1.778" layer="97" font="vector">750k for 5v,
 450k (750k || 1.125k) for 3.3v</text>
 <text x="205.74" y="124.46" size="1.778" layer="97" font="vector">Switch Bypass</text>
@@ -22814,7 +22902,6 @@ inductor current limit</text>
 <instance part="P+1" gate="G$1" x="182.88" y="96.52"/>
 <instance part="U$1" gate="G$1" x="134.62" y="10.16"/>
 <instance part="JP16" gate="G$1" x="246.38" y="20.32"/>
-<instance part="U$2" gate="G$1" x="148.844" y="7.366"/>
 <instance part="GND1" gate="1" x="210.82" y="149.86"/>
 <instance part="LOGO1" gate="G$1" x="116.84" y="2.54"/>
 <instance part="U1" gate="G$1" x="111.76" y="154.94"/>
@@ -22849,6 +22936,7 @@ inductor current limit</text>
 <instance part="R7" gate="G$1" x="111.76" y="66.04" rot="R90"/>
 <instance part="JP4" gate="G$1" x="111.76" y="78.74" rot="R90"/>
 <instance part="J7" gate="G$1" x="213.36" y="134.62" rot="R180"/>
+<instance part="TP1" gate="G$1" x="101.6" y="170.18"/>
 </instances>
 <busses>
 </busses>
@@ -23007,6 +23095,7 @@ inductor current limit</text>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+<label x="53.34" y="78.74" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -23024,6 +23113,10 @@ inductor current limit</text>
 <pinref part="U1" gate="G$1" pin="STAT"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="170.18" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
+<junction x="99.06" y="165.1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -23065,6 +23158,7 @@ inductor current limit</text>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="172.72" y1="83.82" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
 <junction x="172.72" y="86.36"/>
+<junction x="111.76" y="86.36"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -23136,8 +23230,8 @@ inductor current limit</text>
 <junction x="203.2" y="160.02"/>
 <wire x1="203.2" y1="152.4" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
-<junction x="200.66" y="152.4"/>
 <pinref part="J7" gate="G$1" pin="1"/>
+<junction x="203.2" y="152.4"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -23164,6 +23258,16 @@ inductor current limit</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,101.6,157.48,U1,VIN,5VIN,,,"/>
+<approved hash="104,1,121.92,157.48,U1,VBAT,VBATT,,,"/>
+<approved hash="104,1,121.92,152.4,U1,VSS,GND,,,"/>
+<approved hash="104,1,60.96,157.48,J1,VBUS,5VIN,,,"/>
+<approved hash="106,1,48.26,152.4,SHIELD,,,,,"/>
+<approved hash="113,1,214.037,78.6723,J5,,,,,"/>
+<approved hash="113,1,45.0427,57.2177,J6,,,,,"/>
+<approved hash="113,1,195.58,154.919,S2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
