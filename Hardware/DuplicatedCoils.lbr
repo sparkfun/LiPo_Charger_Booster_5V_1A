@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -154,7 +154,7 @@
 </layers>
 <library>
 <packages>
-<package name="INDUCTOR_2.2UHCOPY">
+<package name="INDUCTOR_2.2">
 <wire x1="-2.69965" y1="1.9" x2="2.70035" y2="1.9" width="0.127" layer="39"/>
 <wire x1="2.70035" y1="1.9" x2="2.70035" y2="-1.9" width="0.127" layer="39"/>
 <wire x1="2.70035" y1="-1.9" x2="-2.69965" y2="-1.9" width="0.127" layer="39"/>
@@ -192,6 +192,24 @@
 <vertex x="-0.5" y="-0.5"/>
 </polygon>
 </package>
+<package name="INDUCTOR_4X4MM">
+<description>&lt;h3&gt;4x4mm Inductor&lt;/h3&gt;
+&lt;p&gt;This footprint may be acceptable for many 4x4mm inductors.  It was produced from the datasheet &lt;a href="http://www.vishay.com/docs/34295/sc15ah01.pdf"&gt;here&lt;/a&gt;, for the Vishay Dale IFSC1515AHER2R2M01.</description>
+<wire x1="1.9939" y1="1.9939" x2="-1.9939" y2="1.9939" width="0.127" layer="51"/>
+<wire x1="-1.9939" y1="1.9939" x2="-1.9939" y2="-1.9939" width="0.127" layer="51"/>
+<wire x1="-1.9939" y1="-1.9939" x2="1.9939" y2="-1.9939" width="0.127" layer="51"/>
+<wire x1="1.9939" y1="-1.9939" x2="1.9939" y2="1.9939" width="0.127" layer="51"/>
+<smd name="P$1" x="0" y="1.4732" dx="4.0894" dy="1.143" layer="1"/>
+<smd name="P$2" x="0" y="-1.4732" dx="4.0894" dy="1.143" layer="1"/>
+<text x="0" y="2.442" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-2.2479" y1="2.2479" x2="2.2479" y2="2.2479" width="0.0508" layer="39"/>
+<wire x1="2.2479" y1="2.2479" x2="2.2479" y2="-2.2479" width="0.0508" layer="39"/>
+<wire x1="2.2479" y1="-2.2479" x2="-2.2479" y2="-2.2479" width="0.0508" layer="39"/>
+<wire x1="-2.2479" y1="-2.2479" x2="-2.2479" y2="2.2479" width="0.0508" layer="39"/>
+<wire x1="-2.0240625" y1="0.6746875" x2="-2.0240625" y2="-0.6746875" width="0.2032" layer="21"/>
+<wire x1="2.0240625" y1="0.6746875" x2="2.0240625" y2="-0.6746875" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTORCOPY">
@@ -220,7 +238,7 @@
 <gate name="G$1" symbol="INDUCTORCOPY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-VLF4012AT-2.2UH" package="INDUCTOR_2.2UHCOPY">
+<device name="-VLF4012AT-2.2UH" package="INDUCTOR_2.2">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -230,6 +248,22 @@
 <attribute name="PROD_ID" value="NDUC-09513"/>
 <attribute name="VALUE" value="2.2µH/±20%/1.5A" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NEW2.2U">
+<gates>
+<gate name="G$1" symbol="INDUCTORCOPY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDUCTOR_4X4MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
