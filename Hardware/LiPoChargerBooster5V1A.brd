@@ -2540,6 +2540,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D4" pad="A"/>
 <wire x1="3.417" y1="15.24" x2="4.992" y2="15.24" width="0.254" layer="1"/>
 </signal>
+<signal name="N$5">
+<via x="11.826875" y="30.400625" extent="1-16" drill="0.381"/>
+</signal>
+<signal name="N$7">
+<via x="18.653125" y="30.400625" extent="1-16" drill="0.381"/>
+</signal>
 </signals>
 <errors>
 <approved hash="19,16,67c3e3e1e45a6078"/>
@@ -2638,8 +2644,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,e05d66ff89916e57"/>
 <approved hash="4,1,6af0e9609d459758"/>
 <approved hash="4,1,3b8c503545f11969"/>
+<approved hash="19,1,69db3f993e646826"/>
 <approved hash="19,1,d5a4abb12df9a2da"/>
 <approved hash="19,1,464038fb05d18a5c"/>
+<approved hash="19,1,61db4f994e6e602c"/>
 <approved hash="5,1,2072d7c528547d6c"/>
 <approved hash="4,16,8630e704e6bd8789"/>
 <approved hash="4,16,8d109a249a068d32"/>
@@ -2684,8 +2692,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,fb73e5c763a22a3e"/>
 <approved hash="4,16,c5107d8b2c0a1a3a"/>
 <approved hash="4,16,d02a62b496480ae5"/>
-<approved hash="4,16,422bcd7834b1bfb0"/>
 <approved hash="4,16,d37538bf23a4f177"/>
+<approved hash="4,16,422bcd7834b1bfb0"/>
 </errors>
 </board>
 </drawing>
