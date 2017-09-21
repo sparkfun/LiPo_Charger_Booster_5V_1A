@@ -2224,8 +2224,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="J7" library="SparkFun-Connectors" package="1X02" value="PTH" x="1.27" y="27.94" rot="R270"/>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="4.064" y="16.51" rot="MR0"/>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="10.16" y="11.303" rot="R90">
-<attribute name="PROD_ID" value="RES-00824" x="10.16" y="11.303" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R2" library="SparkFun-Resistors" package="0603" value="750K" x="10.16" y="11.303" rot="R90">
+<attribute name="PROD_ID" value="RES-13768" x="10.16" y="11.303" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="SparkFun-Coils" package="INDUCTOR_4X4MM" value="2.2UH3A" x="16.383" y="18.923" rot="R90">
 <attribute name="VALUE" value="2.2UH3A" x="16.383" y="18.923" size="1.778" layer="27" rot="R90" display="off"/>
