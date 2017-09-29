@@ -24,7 +24,7 @@ Product Versions
 
 Version History
 ----------------
-* [HW-V1.0](https://github.com/sparkfun/LiPo_Charger_Booster_5V_1A/releases/tag/HW-V1.0) - Description 
+* [HW-V1.0](https://github.com/sparkfun/LiPo_Charger_Booster_5V_1A/releases/tag/HW-V1.0) 
 
 License Information
 -------------------
