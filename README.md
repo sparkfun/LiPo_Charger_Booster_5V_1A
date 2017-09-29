@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME>
+SparkFun LiPo Charger/Booster - 5V/1A
 ========================================
 
 ![SparkFun LiPo Charger/Booster - 5V/1A](https://cdn.sparkfun.com//assets/parts/1/2/4/3/2/14411-01.jpg)
