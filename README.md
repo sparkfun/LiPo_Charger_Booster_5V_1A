@@ -22,7 +22,7 @@ Product Versions
 ----------------
 * [PRT-14411](https://www.sparkfun.com/products/14411)- LiPo Charger/Booster 5V/1A
 
--Version History
+Version History
 ----------------
 * [HW-V1.0](https://github.com/sparkfun/LiPo_Charger_Booster_5V_1A/releases/tag/HW-V1.0) - Description 
 
