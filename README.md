@@ -16,6 +16,7 @@ Repository Contents
 
 Documentation
 --------------
+* **[SparkFun Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/14411_sfe_LiPo_Charger_Booster-5V1A.fzpz)** - Fritzing diagrams for SparkFun products.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-5v1a-lipo-chargerbooster-hookup-guide)** - Basic hookup guide for the SparkFun LiPo Charger/Booster - 5V/1A.
 
 Product Versions
