@@ -1,7 +1,7 @@
 SparkFun LiPo Charger/Booster - 5V/1A
 ========================================
 
-![SparkFun LiPo Charger/Booster - 5V/1A](https://cdn.sparkfun.com//assets/parts/1/2/4/3/2/14411-01.jpg)
+[![SparkFun LiPo Charger/Booster - 5V/1A](https://cdn.sparkfun.com//assets/parts/1/2/4/3/2/14411-01.jpg)](https://www.sparkfun.com/products/14411)
 
 [*SparkFun LiPo Charger/Booster - 5V/1A (PRT-14411)*](https://www.sparkfun.com/products/14411)
 
